@@ -57,7 +57,7 @@
           { "ModuleVersion": "1.4.3", "ServerVersionRange": [ "2.5.0-RC6", "" ],   "ReleaseDate": "2024-01-18", "ReleaseNotes": "Updated explorer" },
           { "ModuleVersion": "1.5.0", "ServerVersionRange": [ "2.5.0-RC6", "" ],   "ReleaseDate": "2024-01-21", "ReleaseNotes": "Module performance statistics added" },
           { "ModuleVersion": "1.5.1", "ServerVersionRange": [ "2.5.2", ""     ],   "ReleaseDate": "2024-02-08", "ReleaseNotes": "Support for CodeProject.AI Server 2.5.2" },
-          { "ModuleVersion": "1.6.0", "ServerVersionRange": [ "2.7.0", ""     ],   "ReleaseDate": "2024-02-08", "ReleaseNotes": "Support for CodeProject.AI Server 2.7.0" }
+          { "ModuleVersion": "1.6.0", "ServerVersionRange": [ "2.7.0", ""     ],   "ReleaseDate": "2024-04-25", "ReleaseNotes": "Support for CodeProject.AI Server 2.7.0" }
         ]
       },
 
