@@ -1,13 +1,8 @@
  # Import our general libraries
-import sys
 import time
 
-# Import the CodeProject.AI SDK. This will add to the PATH var for future imports
-sys.path.append("../../SDK/Python")
-from request_data import RequestData
-from module_runner import ModuleRunner
-from common import JSON
-from threading import Lock
+# Import CodeProject.AI SDK
+from codeproject_ai_sdk import RequestData, ModuleRunner, JSON
 
 # Import packages we've installed into our VENV
 from PIL import Image

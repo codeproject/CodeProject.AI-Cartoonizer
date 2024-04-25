@@ -1,0 +1,17 @@
+# Misc
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# debug debris
+
+# Generated package files
+*-[0-9]*.[0-9]*.[0-9]*.zip
+
+# Models
+models/
+
+# Python install / Virtual environment
+bin/
