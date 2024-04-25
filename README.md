@@ -17,8 +17,7 @@ This is an image Cartoonizer module using the for [CodeProject.AI Server](https:
          - src
          - ... etc
       - CodeProject.AI-Modules
-         - CodeProject.AI-Cartoonizer
-         (this repo)
+         - CodeProject.AI-Cartoonizer (this repo)
     ```
 
 3. **If you have NOT run dev setup on the server**
