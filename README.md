@@ -6,7 +6,7 @@ This is an image Cartoonizer module using the for [CodeProject.AI Server](https:
 
 1. Clone the main [server repo](https://github.com/codeproject/CodeProject.AI-Server) into a directory such as `CodeProject/CodeProject.AI-Server`
 
-2. Clone this ObjectDetectionCoral repo into a separate folder `CodeProject/CodeProject.AI-Modules`
+2. Clone this Cartoonizer repo into a separate folder `CodeProject/CodeProject.AI-Modules`
 
     You should now have
 
