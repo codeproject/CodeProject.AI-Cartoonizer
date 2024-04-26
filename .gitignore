@@ -15,3 +15,4 @@ models/
 
 # Python install / Virtual environment
 bin/
+/weights
