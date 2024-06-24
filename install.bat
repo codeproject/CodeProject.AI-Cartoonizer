@@ -13,6 +13,9 @@
     @goto:eof
 )
 
+REM Backwards compatibility with Server 2.6.5
+if "!utilsScript!" == "" if "!sdkScriptsDirPath!" NEQ "" set utilsScript=%sdkScriptsDirPath%\utils.bat
+
 :: Download the models and store in /models
 call "%utilsScript%" GetFromServer "models/" "cartooniser-models.zip" "weights" "Downloading Cartoonizer models..."
 
