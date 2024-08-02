@@ -23,7 +23,7 @@ fi
 getFromServer "models/" "cartooniser-models.zip" "weights" "Downloading Cartoonizer models..."
 
 # TODO: Check weights created and has files
-# module_install_errors=...
+# moduleInstallErrors=...
 
 
 # see https://pyimagesearch.com/2018/01/22/install-dlib-easy-complete-guide/ for notes on RPi
