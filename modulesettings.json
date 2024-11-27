@@ -30,7 +30,6 @@
 
       "EnvironmentVariables": {
         "WEIGHTS_FOLDER": "%CURRENT_MODULE_PATH%\\weights"
-        /* "LD_LIBRARY_PATH": "%CURRENT_MODULE_PATH%/bin/%OS%/python39/venv/lib/python3.9/site-packages/nvidia/cudnn/lib/" */
       },
       
       "GpuOptions" : {

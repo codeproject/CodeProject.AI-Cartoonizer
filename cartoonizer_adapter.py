@@ -1,6 +1,13 @@
  # Import our general libraries
 import time
 
+# import sys
+# sys.path.append("../../CodeProject.AI-Server/src/SDK/Python/src/codeproject_ai_sdk")
+# from common import JSON
+# from request_data import RequestData
+# from module_runner import ModuleRunner
+# from module_logging import LogMethod, LogVerbosity
+
 # Import CodeProject.AI SDK
 from codeproject_ai_sdk import RequestData, ModuleRunner, JSON
 
