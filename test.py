@@ -31,7 +31,7 @@ def test(args):
     device = args.device
     
     net = Generator()
-    net.load_state_dict(torch.load(args.checkpoint, map_location="cpu"))
+    net.load_state_dict(torch.load(args.checkpoint, map_location="cpu", weights_only=True))
     net.to(device).eval()
     print(f"model loaded: {args.checkpoint}")
     

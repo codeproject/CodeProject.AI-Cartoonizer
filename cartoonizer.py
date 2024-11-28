@@ -31,7 +31,7 @@ def get_model(weights_dir, model_name, device_type="cpu"):
         # Load model weights
         model_path = os.path.join(weights_dir, model_name + ".pt")
         # state_dict = torch.hub.load_state_dict_from_url(model_path, map_location=device, progress=True, check_hash=True,)
-        state_dict = torch.load(model_path, map_location=device)
+        state_dict = torch.load(model_path, map_location=device, weights_only=True)
         loaded_model.load_state_dict(state_dict)
 
         # Store path and loaded model for later
