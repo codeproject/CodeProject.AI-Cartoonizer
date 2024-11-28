@@ -36,5 +36,42 @@
                 "python": "${workspaceFolder}/bin/macos/python38/venv/bin/python",
             }
         }
+        ,
+        {
+            "presentation": {
+                "group": "Start",
+                "hidden": false
+            },
+
+            "name": "Test Cartoonizer",
+            "type": "debugpy",
+            "justMyCode": false,
+            "request": "launch",
+            "program": "cartoonizer_adapter.py",
+            "args": [ "--selftest" ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+
+            "env": {
+                "RUNNING_IN_VSCODE": "True",
+                // "CPAI_LOG_VERBOSITY": "Loud",
+                "CPAI_PORT": "32168",
+
+                "WEIGHTS_FOLDER": "${workspaceFolder}/weights"
+            },
+
+            "python": "${workspaceFolder}\\bin\\windows\\python39\\venv\\Scripts\\python.exe",
+            "windows": {
+                "python": "${workspaceFolder}/bin/windows/python38/venv/Scripts/python.exe"
+            },
+            "linux": {
+                // "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/ubuntu/python38/venv/bin/python",
+                "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/debian/python38/venv/bin/python",
+            },
+            "osx": {
+                "python": "${workspaceFolder}/bin/macos/python38/venv/bin/python",
+            }
+        }
+
     ]
 }
